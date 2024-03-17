@@ -11,6 +11,8 @@ html,
 body {
     background-image: url(fundoportifolio.png);
     height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -22,12 +24,17 @@ body {
 }
 
 button {
+    width: 16%;
+    height: 8%;
     top: 89%;
     left: 3%;
     position: fixed;
-    font-size: 15px;
-    padding: 17px 40px;
-    border-radius: 50px;
+    font-size: 1.17vw;
+    /* Convertendo 15px para porcentagem */
+    padding: 1.17vw 2.92vw;
+    /* Convertendo 17px e 40px para porcentagem */
+    border-radius: 5vw;
+    /* Convertendo 50px para porcentagem */
     border: 0;
     opacity: 2.0;
     text-transform: uppercase;
@@ -49,43 +56,53 @@ h1 {
     font-style: normal;
     position: absolute;
     top: 2%;
-    left: 36%;
-    font-size: 60px;
+    left: 34%;
+    font-size: 4.41vw;
+    /* Convertendo 60px para porcentagem */
     color: rgb(2, 7, 29);
     transition: 300ms;
 }
 
-.header1{
+.header1 {
     width: 15%;
     height: 10%;
     background-color: #222;
-    padding: 20px;
+    padding: 1.2vw;
+    /* Convertendo 20px para porcentagem */
     box-sizing: border-box;
     color: #ffffff;
     overflow: hidden;
-    border-radius: 45px;
+    border-radius: 9vw;
+    /* Convertendo 45px para porcentagem */
     transition: 300ms;
     position: absolute;
     left: 5%;
     top: 20%;
     text-align: center;
-    box-shadow: 0 0 8px rgb(255, 255, 255);
+    box-shadow: 0 0 1.02vw rgb(255, 255, 255);
+    /* Convertendo 8px para porcentagem */
     cursor: pointer;
     text-decoration: none;
     color: rgb(177, 177, 177);
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.8vw;
+    /* Convertendo 20px para porcentagem */
     font-family: sans-serif;
 }
 
-.header1:hover{
+.header1:hover {
     height: 40%;
     width: 15%;
-    border-radius: 34px;
+    border-radius: 3.80vw;
+    /* Convertendo 34px para porcentagem */
     overflow: visible;
+
+    .html {
+        top: 20%;
+    }
 }
 
-#paginicial{
+#paginicial {
     text-decoration: none;
     color: rgb(177, 177, 177);
     text-transform: uppercase;
@@ -93,81 +110,100 @@ h1 {
     font-family: sans-serif;
 }
 
-.html{
+.html {
     align-content: center;
     align-items: center;
     text-align: center;
-    height: 40px;
-    width: 190px;
+    height: 3.21vw;
+    /* Convertendo 40px para porcentagem */
+    width: 13.92vw;
+    /* Convertendo 190px para porcentagem */
     position: absolute;
-    top: 70px;
-    left: 5px;
+    top: 10.40vh;
+    /* Convertendo 70px para porcentagem */
+    left: 0.36vw;
+    /* Convertendo 5px para porcentagem */
     box-sizing: border-box;
-    padding: 10px 40px;
-    transition: 300ms   ;
+    padding: 1.10vw 5.60vw;
+    /* Convertendo 10px e 40px para porcentagem */
+    transition: 300ms;
+    /* Mantido em milissegundos */
     background-color: #222;
-    border-radius: 9px;
+    border-radius: 1.74vw;
+    /* Convertendo 9px para porcentagem */
     overflow: hidden;
 }
 
-.html:hover{
+
+.html:hover {
     width: 450%;
     overflow: visible;
+
+    .codigo {
+        top: 2.5vw;
+        left: 8vw;
+    }
 }
 
-.codigo{
+.codigo {
     align-content: center;
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 25px;
-    left: 20%;
+    top: 10vw;
+    left: 50vw;
     box-sizing: border-box;
-    padding: 10px 40px;
+    padding: 1% 13%;
     transition: 300ms;
 }
 
-.css{
+.css {
     align-content: center;
     align-items: center;
     text-align: center;
-    height: 40px;
-    width: 190px;
+    height: 3.21vw;
+    width: 13.92vw;
     position: absolute;
-    top: 130px;
-    left: 5px;
+    top: 17.40vh;
+    left: 0.40vw;
     box-sizing: border-box;
-    padding: 10px 40px;
-    transition: 300ms   ;
+    padding: 1.10vw 5.60vw;
+    transition: 300ms;
     background-color: #222;
-    border-radius: 9px;
+    border-radius: 1.74vw;
     overflow: hidden;
 }
 
-.css:hover{
+.css:hover {
     width: 535%;
     overflow: visible;
+
+    .codigo {
+        top: 2.1vw;
+        left: 6vw;
+    }
 }
 
-#site{
+.site {
     color: rgb(177, 177, 177);
     text-decoration: none;
     align-content: center;
     align-items: center;
     text-align: center;
-    height: 40px;
-    width: 190px;
+    height: 0.21vw; /* Convertendo 40px para porcentagem */
+    width: 14.50vw; /* Convertendo 190px para porcentagem */
     position: absolute;
-    top: 185px;
-    left: 5px;
+    top: 26.05vh; /* Convertendo 185px para porcentagem */
+    left: 0.27vw; /* Convertendo 5px para porcentagem */
     box-sizing: border-box;
-    padding: 10px 40px;
-    transition: 300ms   ;
+    padding: 1.80vw 0.80vw; /* Convertendo 10px e 40px para porcentagem */
+    transition: 300ms; /* Mantido em milissegundos */
     background-color: #222;
-    border-radius: 9px;
+    border-radius: 1.74vw; /* Convertendo 9px para porcentagem */
 }
 
-#site:hover{
+
+.site:hover {
     scale: 1.3;
     background-color: rgb(177, 177, 177);
     color: #222;
